@@ -1,4 +1,4 @@
-## Dual Purpose Model: Optimized Masked Face Recognition and Mask Detection for Half-Covered Faces in COVID-2019
+### Dual Purpose Model: Optimized Masked Face Recognition and Mask Detection for Half-Covered Faces in COVID-2019
 
 ## About the Project
 
