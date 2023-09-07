@@ -91,7 +91,7 @@ If all paths, dependencies and folders are in their correct places, we now simpl
 
 **NOTE** The file contains a folder called testing.py. It is the source code just in case one wants to see the results of the model. The testing.py file imports the .npz files created earlier and then performs testing on them.
 
-**To Add unknown candidate** Goto Recog_Train, Then add a folder with images of that person whose identity we want to add on the database. Rename the folder as the new person's name.
+**To add unknown candidate** Goto Recog_Train, Then add a folder with images of that person whose identity we want to add on the database. Rename the folder as the new person's name.
 
 ## Conclusion 
 
