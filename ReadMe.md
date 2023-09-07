@@ -1,8 +1,8 @@
-### Dual Purpose Model: Optimized Masked Face Recognition and Mask Detection for Half-Covered Faces in COVID-2019
+### Enhancing Security with Optimized Masked Face Recognition and Mask Detection
 
 ## About the Project
 
-“Dual Purpose Model: Optimized Masked FaceRecognition and Mask Detection for Half-CoveredFaces” is a solution to the problem of recognition of faces wearing masks, especially during the pandemic by COVID-19. This file consists of detailed step by step procedure to run our model as well as we will be stating all pre-requisits which are needed to run the code. 
+“It is a dual purpose model: Optimized Masked FaceRecognition and Mask Detection for Half-CoveredFaces” is a solution to the problem of recognition of faces wearing masks, especially during the pandemic by COVID-19. This file consists of detailed step by step procedure to run our model as well as we will be stating all pre-requisits which are needed to run the code. 
 
 ### Built With 
 
@@ -67,7 +67,7 @@ This section consists of the the system requirements to execute the code are the
 
 ## Usage 
 
-This section encloses every detail of how to run the project in your local system once all the above mentioned dependencies are successfully installed in the working environment. Before explaning how to use the source code, we will decribe the files and folders present in this repository.
+This section encloses every detail of how to run the project in your local system once all the above mentioned dependencies are successfully installed in the working environment. Before explaining how to use the source code, we will decribe the files and folders present in this repository.
 
 * Maskdetection-master :  This folder consists of the mask detection model which executes with the final model of face recognition too. **Please Note that this file need not be executed.** There are three python files for creating the mask detector, training the mask detector and then implementation of the trained mask deteector.
 * Dataset : There exists a zip file named dataset. We need to extract it into the folder named **'Recog_Train'.** If one wants to add their ID to the databes then they must make a folder with 3-4 pictures of themselves in the 'Recog_Train' folder. 
@@ -91,6 +91,8 @@ If all paths, dependencies and folders are in their correct places, we now simpl
 
 **NOTE** The file contains a folder called testing.py. It is the source code just in case one wants to see the results of the model. The testing.py file imports the .npz files created earlier and then performs testing on them.
 
+**To Add unknown candidate** Goto Recog_Train, Then add a folder with images of that person whose identity we want to add on the database. Rename the folder as the new person's name.
+
 ## Conclusion 
 
-This project is craeted in order to provide a solution to the problem of masked face recognition. Any changes or enhance to the project is welcomed to be contributed. 
+This project is craeted in order to provide a solution to the problem of masked face recognition. Any changes or enhance to the project is welcomed to be contributed with proper citation. 
